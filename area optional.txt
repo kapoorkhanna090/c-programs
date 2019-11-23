@@ -1,0 +1,40 @@
+#includeiostream
+using namespace std;
+const float pi=3.14;
+class area{
+    float ar1,ar2,ar3;
+public 
+    void are(float r)
+    {
+        ar1=(pirr);
+    }
+    void are(float n,float a,float b)
+    {
+        ar2=(nab);
+    }
+    void are(float lr,float br)
+    {
+        ar3=(lrbr);
+    }
+    void display()
+    {
+        coutArea of circle  ar1endl;
+        coutArea of rectangle   ar3endl;
+        coutArea of triangle   ar2endl;
+    }
+};
+int main()
+{
+    float lr,br,c,b,r;
+    area a;
+    coutEnter the radius  endl;
+    cinr;
+    coutEnter the length and breadth endl;
+    cinlrbr;
+    coutEnter the height and base endl;
+    cincb;
+    a.are(r);
+    a.are(0.5,c,b);
+    a.are(lr,br);
+    a.display();
+}
